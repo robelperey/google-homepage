@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0.7rem;
+}
+
+.nav-links li a {
+  font-size: 13px;
+}
+
+#sign-in a {
+  background-color: rgb(96, 153, 240);
+  color: white;
+  padding: 8px;
+  border: 1px solid rgb(96, 153, 240);
+  border-radius: 3px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.search-border {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  border: 1px solid rgba(0, 0, 0, 0.54);
+  border-radius: 24px;
+  padding: 4px 12px;
+  margin: 18px;
+}
+
+.search-bar input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 36px;
+}
+
+.btn-container {
+  text-align: center;
+  padding: 0 1.1rem;
+  margin: 11px 4px;
+}
+
+.btn-container button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  height: 36px;
+  font-size: 14px;
+  margin: 11px 4px;
+  cursor: pointer;
+}
+
+.offered-in {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.offered-in p a {
+  font-size: 12px;
+  color: blue;
+  padding: 0.2rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 0.8rem;
+  color: rgba(0, 0, 0, 0.54);
+}

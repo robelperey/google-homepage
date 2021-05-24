@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Google homepage replica</title>
+    <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><a href="#"><img src="assets/apps_black_24dp.svg" alt="menu-icon"></a></li>
-                <li><button>Sign in</button></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <form action="#">
-            <img src="assets/search_black_24dp.svg" alt="search-icon">
-            <input type="text">
-            <div>
-                <button>Google Search</button>
-                <button>I'm Feeling lucky</button>
+
+    <nav class="nav-links">
+        <ul class="nav-container">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><img src="assets/apps_black_24dp.svg" alt=""></a></li>
+            <li id="sign-in"><a href="#">Sign In</a></li>
+        </ul>
+    </nav>
+
+
+
+    <form>
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="google logo">
+        </div>
+        <div class="search-border">
+            <div class="search-bar">
+                <img src="assets/search_black_24dp.svg" alt="">
+                <input type="text">
+                <img src="assets/mic_black_24dp.svg" alt="">
             </div>
-            
-        </form>
-        <p>Google offered in: <a href="#">Filipino</a> <a href="#">Cebuano</a></p> 
-        
-        
-    </main>
+        </div>
+
+
+        <div class="btn-container">
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </div>
+
+    </form>
+    <div class="offered-in">
+
+        <p>Google offered in: <a href="#">Filipino</a><a href="#">Cebuano</a></p>
+    </div>
+
+
     <footer>
-        <section>Philippines</section>
-        <section>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search works</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </section>
+        <a href="#">Philippines</a>
     </footer>
+
+
 </body>
+
 </html>
